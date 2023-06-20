@@ -1,14 +1,9 @@
-.span1{
-    background-color: rgba(255, 166, 0, 0.413);
 
 body {
 
-
-    }
     background-color: #fff7f0
-    ;
-}
-
+    
+    }
 .one {
     width: 1000px;
     background-color: white ;
@@ -49,6 +44,12 @@ body {
     margin-bottom: 10px;
 
 }
+
+.span1{
+    background-color: rgba(255, 166, 0, 0.413);
+
+}
+
 
 .span2{
     background-color: rgba(255, 166, 0, 0.413);
