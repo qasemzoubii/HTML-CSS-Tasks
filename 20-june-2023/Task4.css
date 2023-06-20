@@ -1,0 +1,32 @@
+
+.container {
+    border: 3px dotted black;
+    width: fit-content;
+    margin: 100px auto;
+    font-weight: bold;
+    position: relative;
+}
+
+.square {
+    background-color: red;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+}
+
+.square.green {
+    background-color: green;
+}
+
+.container .p-relative {
+    position: relative;
+    right: -20px;
+    bottom: -20px;
+}
+
+.container .p-absolute {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    top: 10px;
+}

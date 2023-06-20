@@ -1,0 +1,10 @@
+.Image1 {
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    width: 150px;
+    height: 500px;
+    background-image: url(Capture1.PNG);
+    background-size:contain;
+    border: 1px black solid;
+}
