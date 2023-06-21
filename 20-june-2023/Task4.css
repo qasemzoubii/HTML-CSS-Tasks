@@ -4,7 +4,7 @@
     width: fit-content;
     margin: 100px auto;
     font-weight: bold;
-    position: relative;
+    
 }
 
 .square {
@@ -17,14 +17,17 @@
 .square.green {
     background-color: green;
 }
+.rel{
+    position: relative;
+}
 
-.container .p-relative {
+.p-relative {
     position: relative;
     right: -20px;
     bottom: -20px;
 }
 
-.container .p-absolute {
+.p-absolute {
     position: absolute;
     top: 50px;
     left: 10px;
