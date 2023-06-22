@@ -1,4 +1,4 @@
-.div{
+.container{
 display:flex;
 height: 660px;
 
@@ -13,38 +13,31 @@ text-align: center;
 }
 .item1{
 background-color: green;
-height: 100%;
-width: 11%;
+width: 12%;
 }
 .item2{
 background-color:yellow;
-height: 100%;
 width: 12%;
 }
 .item3{
 background-color: purple;
-height: 100%;
 width: 12%;
 }
 .item4{
 background-color: gray;
-height: 100%;
 width: 12%;
 }
 .item5{
 background-color: blue;
-height: 100%;
 width: 12%;
 }
 
 .item6{
 background-color: orange;
-height: 100%;
 width: 12%;
 }
 .item7{
 background-color: pink;
-height: 100%;
 width: 12%;
 }
 .item8{
