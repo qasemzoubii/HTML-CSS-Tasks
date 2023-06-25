@@ -1,0 +1,18 @@
+div{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-image:linear-gradient(green,lightblue); left: 0px; top: 0px; animation-timing-function: ease;}
+    25%  {background-image: linear-gradient(red,orange); left:500px; top:0px;animation-timing-function:ease-in} 
+    50%  {background-image: linear-gradient(yellow,pink); left:500px; top:500px; animation-timing-function: ease;}
+    75%  {background-image:linear-gradient(red,blue);left:0px; top:500px;animation-timing-function: ease-in-out;}
+    100% {background-image:(gray,white); left:0px; top:0px; animation-timing-function: ease-in;}
+  }
